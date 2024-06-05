@@ -9,6 +9,8 @@
 \usepackage[export]{adjustbox}
 \usepackage{multirow}
 \usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{xcolor}
 \usetheme{Boadilla}
 %\usetheme{default}
 
@@ -40,6 +42,8 @@
 \setbeamertemplate{section in toc}[square]
 %\setbeamertemplate{itemize items}[default]
 %\setbeamertemplate{enumerate items}[default]
+
+\definecolor{light-gray}{gray}{0.9}
 
 
 \title[COMPSTAT 2024]{Univariate Time Series Forecasting using Echo State Networks: An Empirical Application}
@@ -110,13 +114,13 @@
 
 
 
-\begin{frame}[t]{Echo State Networks - Architecture}
+\begin{frame}[t]{Echo State Network - Architecture}
     \begin{minipage}[t]{0.3\textwidth}
         \vspace{0pt}
         \begin{itemize}
 			\item Input $u_{t} = y_{t-1}$ is non-linearly expanded into a high-dimensional feature space (i.e., internal states)
 			\item Output $y_{t}$ is combined via trainable weights from these internal states
-			\item Dashed lines indicate fixed weights and solid lines indicate trainable weights
+			\item Dashed lines indicate fixed weights ($\boldsymbol{\omega}^{in}$, $\boldsymbol{\omega}$) and solid lines indicate trainable weights $\boldsymbol{\omega}^{out}$
         \end{itemize}
     \end{minipage}%
     \hfill
@@ -135,7 +139,7 @@
 
 
 
-\begin{frame}[t]{Echo State Network - Basic model\footnote{More details in the Appendix}}
+\begin{frame}[t]{Echo State Network - Basic model\footnote{More details in the appendix}}
     \begin{minipage}[t]{0.33\textwidth}
         \vspace{0pt}
         \textbf{1. Data pre-processing}
@@ -150,13 +154,13 @@
         \vspace{0pt}
         \textbf{2. Reservoir generation}
         \begin{itemize}
-            \item Calculate the internal states (i.e., reservoir) according to
+            \item Calculate the internal states according to
 				\begin{equation*}
 					\mathbf{x}_{t} = \tanh \left( {\boldsymbol{\omega}^{in}} u_{t} + \boldsymbol{\omega} \mathbf{x}_{t-1} \right)
 				\end{equation*}
 			\item First autoregressive lag as input, i.e., $u(t) = y(t-1)$
 			\item Input and reservoir weight matrices $\boldsymbol{\omega}^{in}$ and $\boldsymbol{\omega}$
-			\item Collect internal states in design matrix X
+			\item Collect internal states in design matrix $\mathbf{X}$ (plus intercept term)
         \end{itemize}
     \end{minipage}
     \hfill
@@ -208,7 +212,12 @@
         \begin{itemize}
             \item Internal states (colored lines) and the pre-processed output variable (black line)
 			\item Non-linear dimensionality expansion as a feature engineering technique for time series
-			\item \textbf{Problem}: Multicollonearity and overfitting
+			\item \textbf{Problems}
+				\begin{itemize}
+					\item Multicollinearity
+					\item Overfitting
+					\item ...
+				\end{itemize}
         \end{itemize}
     \end{minipage}%
     \hfill
@@ -249,7 +258,7 @@
         \begin{itemize}
         	\item Recursive forecasting due to \textit{autoregressive nature}
             \item Actual values (black), fitted values (red) and out-of-sample forecasts (green)
-			\item Vertical dotted line indicates the split of actual values into training and testing
+			\item Vertical dotted line: split into training and testing (holdout)
 			\item ESN model produces reasonable forecasts
         \end{itemize}
     \end{minipage}%
@@ -289,7 +298,7 @@
 				\cmidrule(l){2-3} \cmidrule(l){4-5} \cmidrule(l){6-7}
  				& Mean & Median & Mean  & Median & Mean & Total \\
 				\midrule
-				ESN & \textbf{0.885} & 0.717 & 17.877 & 12.296 & 0.201 & 483.406 \\ 
+				\rowcolor{light-gray} ESN & \textbf{0.885} & 0.717 & 17.877 & 12.296 & 0.201 & 483.406 \\ 
 				TBATS & 0.887 & \textbf{0.711} & 17.075 & 12.246 & 0.650 & 1561.136 \\ 
 				ARIMA & 0.891 & 0.729 & 17.963 & 12.415 & 0.256 & 613.874 \\ 
 				ETS & 0.902 & 0.722 & 17.763 & \textbf{12.182} & 0.167 & 401.617 \\ 
@@ -338,7 +347,7 @@
 				ETS & \textbf{1.082} & \textbf{0.839} & 10.264 & 5.398 & 0.062 & 74.100 \\ 
 				TBATS & 1.104 & 0.843 & \textbf{9.975} & 5.579 & 0.336 & 403.254 \\ 
 				ELM & 1.114 & 0.880 & 10.771 & \textbf{5.352} & 1.382 & 1658.841 \\ 
-				ESN & 1.114 & 0.908 & 10.672 & 5.540 & 0.052 & 61.836 \\ 
+				\rowcolor{light-gray} ESN & 1.114 & 0.908 & 10.672 & 5.540 & 0.052 & 61.836 \\ 
 				ARIMA & 1.119 & 0.876 & 10.410 & 5.703 & 0.106 & 127.593 \\ 
 				THETA & 1.150 & 0.908 & 10.339 & 5.859 & 0.026 & 31.040 \\ 
 				DRIFT & 1.155 & 0.888 & 10.915 & 5.524 & 0.025 & 30.375 \\ 
@@ -395,75 +404,8 @@
     \printbibliography[heading=none]
 \end{frame}
 
+
 \section{Appendix}
-
-
-
-\begin{frame}
-\frametitle{Univariate Electricity Load Forecasting using ESNs}
-\framesubtitle{\large Basic model (2/2)}
-
-\begin{itemize}
-\item Input: $\mathbf{u}_t = \{ u_{1,t}, u_{2,t},...,u_{K,t} \}$
-\item Internal states (reservoir): $\mathbf{x}_t = \{ x_{1,t}, x_{2,t},...,x_{N,t} \}$
-\item Output: $\mathbf{y}_t = \{ y_{1,t}, y_{2,t},...,y_{L,t} \}$
-\end{itemize}
-
-\begin{itemize}
-\item Randomly generate input weight matrix $\mathbf{W}^{in} \in \mathbb{R}^{N \times K}$
-\item Randomly generate reservoir weight matrix $\mathbf{W} \in \mathbb{R}^{N \times N}$ using the spectral radius $\rho$
-\end{itemize}
-
-\begin{subequations}
-\begin{align}
-\mathbf{\widetilde{x}}_{t} &= \tanh \left( {\mathbf{W}^{in}} \mathbf{u}_{t} + \mathbf{W}\mathbf{x}_{t - 1} \right), \label{eq:update} \\
-\mathbf{x}_{t} &= (1 - \alpha )\mathbf{x}_{t - 1} + \alpha \mathbf{\widetilde{x}}_{t} \label{eq:states}
-\end{align}
-\end{subequations}
-
-%\begin{equation}
-%\mathbf{y}_{t} = \mathbf{W}^{out} \mathbf{x}_{t} + \boldsymbol{\epsilon}_{t},
-%\label{eq:model}
-%\end{equation}
-
-\begin{itemize}
-\item The output is defined as $\mathbf{y}_{t} = \mathbf{W}^{out} \mathbf{x}_{t} + \boldsymbol{\epsilon}_{t}$, which is a linear optimization problem. The readout weight matrix $\mathbf{W}^{out}$ is usually computed using ridge regression.
-\end{itemize}
-
-\end{frame}
-
-
-
-
-
-\begin{frame}
-\frametitle{Univariate Electricity Load Forecasting using ESNs}
-\framesubtitle{\large Training via ridge regression and forecasting}
-
-\begin{itemize}
-\item Given the target output $y_{t}$ and the design matrix $\mathbf{x}_{t}$, the optimization problem is defined as the penalized residual sum of squares (PRSS):
-\end{itemize}
-
-\begin{subequations}
-\begin{align}
-PRSS(\mathbf{W}^{out})_{l_2} &= \sum\limits_{t = 1}^T {{{\left( {y_{t} - {\mathbf{x}_{t}^T}{\mathbf{W}^{out}}} \right)}^2}} + \lambda \sum\limits_{n = 1}^N {{{\left( {\mathbf{W}_n^{out}} \right)}^2}}, \\
-&= \underbrace {{{\left( {\mathbf{y} - \mathbf{X}{\mathbf{W}^{out}}} \right)}^T}\left( {\mathbf{y} - \mathbf{X}{\mathbf{W}^{out}}} \right)}_{RSS} + \underbrace {\lambda \left\| {{\mathbf{W}^{out}}} \right\|_2^2}_{Penalty} \label{eq:problem}
-\end{align}
-\end{subequations}
-
-\begin{itemize}
-\item The solution to the ridge regression problem is given by
-\end{itemize}
-
-\begin{equation}
-\mathbf{\hat{W}}^{Out} = (\mathbf{X}^T\mathbf{X} + \lambda\mathbf{I}_N)^{-1}\mathbf{X}^{T}\mathbf{y}.
-\label{estimator}
-\end{equation}
-
-\end{frame}
-
-
-
 
 
 \begin{frame}[t]{Echo State Network  - Settings and hyperparameters}
