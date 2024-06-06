@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.3)  5 JUN 2024 18:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.3)  6 JUN 2024 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1163,207 +1163,207 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 51.
+(hyperref)                removing `\begingroup' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 51.
+(hyperref)                removing `\@ifnextchar' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\footnote' on input line 51.
+(hyperref)                removing `\footnote' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 51.
+(hyperref)                removing `\begingroup' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 51.
+(hyperref)                removing `\catcode' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\active' on input line 51.
+(hyperref)                removing `\active' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 51.
+(hyperref)                removing `\<def>-command' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 51.
+(hyperref)                removing `\csname\endcsname' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 51.
+(hyperref)                removing `\catcode' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\active' on input line 51.
+(hyperref)                removing `\active' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 51.
+(hyperref)                removing `\<let>-command' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 51.
+(hyperref)                removing `\csname\endcsname' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 51.
+(hyperref)                removing `\<let>-command' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\%' on input line 51.
+(hyperref)                removing `\%' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 51.
+(hyperref)                removing `\catcode' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\active' on input line 51.
+(hyperref)                removing `\active' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 51.
+(hyperref)                removing `\<def>-command' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 51.
+(hyperref)                removing `\csname\endcsname' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 51.
+(hyperref)                removing `\<def>-command' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\#' on input line 51.
+(hyperref)                removing `\#' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 51.
+(hyperref)                removing `\catcode' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 51.
+(hyperref)                removing `\<def>-command' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 51.
+(hyperref)                removing `\csname\endcsname' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 51.
+(hyperref)                removing `\<def>-command' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\&' on input line 51.
+(hyperref)                removing `\&' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 51.
+(hyperref)                removing `\<def>-command' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\textunderscore' on input line 51.
+(hyperref)                removing `\textunderscore' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 51.
+(hyperref)                removing `\<let>-command' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\_' on input line 51.
+(hyperref)                removing `\_' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 51.
+(hyperref)                removing `\catcode' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\active' on input line 51.
+(hyperref)                removing `\active' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 51.
+(hyperref)                removing `\<let>-command' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 51.
+(hyperref)                removing `\csname\endcsname' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 51.
+(hyperref)                removing `\<let>-command' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 51.
+(hyperref)                removing `\csname\endcsname' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 51.
+(hyperref)                removing `\<let>-command' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\~' on input line 51.
+(hyperref)                removing `\~' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 51.
+(hyperref)                removing `\<let>-command' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\textasciitilde' on input line 51.
+(hyperref)                removing `\textasciitilde' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 51.
+(hyperref)                removing `\<let>-command' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 51.
+(hyperref)                removing `\\' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 51.
+(hyperref)                removing `\<def>-command' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 51.
+(hyperref)                removing `\csname\endcsname' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 51.
+(hyperref)                removing `\<def>-command' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Hy@tempa' on input line 51.
+(hyperref)                removing `\Hy@tempa' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 51.
+(hyperref)                removing `\<def>-command' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Hy@tempa' on input line 51.
+(hyperref)                removing `\Hy@tempa' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\global' on input line 51.
+(hyperref)                removing `\global' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\advance' on input line 51.
+(hyperref)                removing `\advance' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\c@footnote' on input line 51.
+(hyperref)                removing `\c@footnote' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endgroup' on input line 51.
+(hyperref)                removing `\endgroup' on input line 55.
 
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
@@ -1371,31 +1371,31 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count480
 \@quotereset=\count481
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 5
-7.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 6
+1.
 (C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (compstat_2024.aux)
 \openout1 = `compstat_2024.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1452,58 +1452,58 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Program Files\MiKTeX 2.9\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 57.
+Package hyperref Info: Link coloring OFF on input line 61.
 
 (compstat_2024.out) (compstat_2024.out)
 \@outlinefile=\write6
 \openout6 = `compstat_2024.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 57.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 61.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 57.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 61.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 57.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 61.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 57.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 61.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 57.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 57.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 61.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 57.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 57.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 57.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 61.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 57.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 57.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 57.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 61.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 57.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 57.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 57.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 61.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 57.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 57.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 61.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 57.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 61.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 57.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 57.
+(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 57.
+(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 57.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 57.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 57.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 61.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/translator\translator-basic-dictionary-E
 nglish.dict
@@ -1548,67 +1548,67 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'compstat_2024.bbl' found.
 (compstat_2024.bbl)
-Package biblatex Info: Reference section=0 on input line 57.
-Package biblatex Info: Reference segment=0 on input line 57.
+Package biblatex Info: Reference section=0 on input line 61.
+Package biblatex Info: Reference segment=0 on input line 61.
  (compstat_2024.nav)
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-61.
+65.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/lm\ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
-1.
+5.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-61.
+65.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-61.
+65.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 61.
+(Font)              <10.95> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 61.
+(Font)              <8> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 61.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
+(Font)              <6> on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
 
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
 
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 61.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 65.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 61.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 65.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 61.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 61.
+(Font)              <9> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 61.
+(Font)              <5> on input line 65.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 61.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 65.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 61.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 65.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
-1.
+5.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1623,120 +1623,121 @@ oc) [2
 
 ] [4
 
-] (compstat_2024.toc) [5
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}] (compstat_2024.toc)
+ [5
 
 ]
 LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 134.
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 124.
 
 LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 134.
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 124.
 
 LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 134.
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 124.
 
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 134.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 124.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <8> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 134.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 124.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <6> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 134.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 124.
 LaTeX Font Info:    Font shape `T1/lmss/b/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 134.
+(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 124.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 134.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 124.
 
 LaTeX Font Info:    Font shape `T1/lmss/b/it' in size <8> not available
-(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 134.
+(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 124.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <8> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 134.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 124.
 
 LaTeX Font Info:    Font shape `T1/lmss/b/it' in size <6> not available
-(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 134.
+(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 124.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <6> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 134.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 124.
 
 
 
 pdfTeX warning: pdflatex (file ./figures/figure_04_architecture.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/figure_04_architecture.pdf, id=90, 483.72722pt x 284.62335pt>
+<figures/figure_04_architecture.pdf, id=94, 483.72722pt x 284.62335pt>
 File: figures/figure_04_architecture.pdf Graphic file (type pdf)
 <use figures/figure_04_architecture.pdf>
 Package pdftex.def Info: figures/figure_04_architecture.pdf  used on input line
- 134.
+ 124.
 (pdftex.def)             Requested size: 290.23856pt x 170.77531pt.
 [6
 
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiK
-TeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc
-/dvips/lm/lm-mathit.enc} <./figures/figure_04_architecture.pdf>]
-Overfull \hbox (4.6227pt too wide) detected at line 182
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files
+/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc} <./figures/figure_04_architecture
+.pdf>]
+Overfull \hbox (4.6227pt too wide) detected at line 172
 \T1/lmss/bx/n/10.95 x[] \OT1/lmss/m/n/10.95 = [] []
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 182.
+(Font)              <14.4> on input line 172.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 182.
+(Font)              <10> on input line 172.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 182.
+(Font)              <7> on input line 172.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 182.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 172.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 182.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 172.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <7> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 182.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 172.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 182.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 172.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 182.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 172.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 182.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 172.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <9> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 182.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 172.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <5> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 182.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 172.
 [7
 
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}]
-<figures/figure_03_data_sample_wide.pdf, id=150, 426.59375pt x 284.06125pt>
+<figures/figure_03_data_sample_wide.pdf, id=152, 426.59375pt x 284.06125pt>
 File: figures/figure_03_data_sample_wide.pdf Graphic file (type pdf)
 <use figures/figure_03_data_sample_wide.pdf>
 Package pdftex.def Info: figures/figure_03_data_sample_wide.pdf  used on input 
-line 205.
+line 195.
 (pdftex.def)             Requested size: 298.61357pt x 198.84149pt.
  [8
 
  <./figures/figure_03_data_sample_wide.pdf>]
-<figures/figure_05_model_states_wide.pdf, id=161, 426.59375pt x 284.06125pt>
+<figures/figure_05_model_states_wide.pdf, id=163, 426.59375pt x 284.06125pt>
 File: figures/figure_05_model_states_wide.pdf Graphic file (type pdf)
 <use figures/figure_05_model_states_wide.pdf>
 Package pdftex.def Info: figures/figure_05_model_states_wide.pdf  used on input
- line 231.
+ line 221.
 (pdftex.def)             Requested size: 298.61357pt x 198.84149pt.
  [9
 
  <./figures/figure_05_model_states_wide.pdf>]
-<figures/figure_06_model_states_top_wide.pdf, id=172, 426.59375pt x 284.06125pt
+<figures/figure_06_model_states_top_wide.pdf, id=174, 426.59375pt x 284.06125pt
 >
 File: figures/figure_06_model_states_top_wide.pdf Graphic file (type pdf)
 <use figures/figure_06_model_states_top_wide.pdf>
 Package pdftex.def Info: figures/figure_06_model_states_top_wide.pdf  used on i
-nput line 252.
+nput line 242.
 (pdftex.def)             Requested size: 298.61357pt x 198.84149pt.
  [10
 
  <./figures/figure_06_model_states_top_wide.pdf>]
-<figures/figure_07_model_forecast_sample_wide.pdf, id=183, 426.59375pt x 284.06
+<figures/figure_07_model_forecast_sample_wide.pdf, id=185, 426.59375pt x 284.06
 125pt>
 File: figures/figure_07_model_forecast_sample_wide.pdf Graphic file (type pdf)
 <use figures/figure_07_model_forecast_sample_wide.pdf>
 Package pdftex.def Info: figures/figure_07_model_forecast_sample_wide.pdf  used
- on input line 273.
+ on input line 263.
 (pdftex.def)             Requested size: 298.61357pt x 198.84149pt.
  [11
 
@@ -1754,15 +1755,15 @@ Package pdftex.def Info: figures/figure_07_model_forecast_sample_wide.pdf  used
 ] (compstat_2024.toc) [17
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 40
-5.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 39
+4.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 405.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 394.
 
 [18
 
@@ -1773,17 +1774,37 @@ LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
 
 ]
 LaTeX Font Info:    Font shape `OT1/lmss/b/n' in size <5> not available
-(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 464.
+(Font)              Font shape `OT1/lmss/bx/n' tried instead on input line 438.
 
 LaTeX Font Info:    Font shape `T1/lmss/b/it' in size <5> not available
-(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 464.
+(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 438.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <5> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 464.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 438.
 
  [21
 
+] [22
+
 ]
+<figures/figure_01_data_monthly.pdf, id=292, 482.80376pt x 284.06125pt>
+File: figures/figure_01_data_monthly.pdf Graphic file (type pdf)
+<use figures/figure_01_data_monthly.pdf>
+Package pdftex.def Info: figures/figure_01_data_monthly.pdf  used on input line
+ 482.
+(pdftex.def)             Requested size: 337.96033pt x 198.84149pt.
+ [23
+
+ <./figures/figure_01_data_monthly.pdf>]
+<figures/figure_02_data_quarterly.pdf, id=306, 482.80376pt x 284.06125pt>
+File: figures/figure_02_data_quarterly.pdf Graphic file (type pdf)
+<use figures/figure_02_data_quarterly.pdf>
+Package pdftex.def Info: figures/figure_02_data_quarterly.pdf  used on input li
+ne 490.
+(pdftex.def)             Requested size: 337.96033pt x 198.84149pt.
+ [24
+
+ <./figures/figure_02_data_quarterly.pdf>]
 \tf@nav=\write7
 \openout7 = `compstat_2024.nav'.
 
@@ -1805,30 +1826,32 @@ Package logreq Info: Writing requests to 'compstat_2024.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33496 strings out of 474495
- 649609 string characters out of 5751822
+ 33525 strings out of 474495
+ 650454 string characters out of 5751822
  1950460 words of memory out of 5000000
- 55044 multiletter control sequences out of 15000+600000
+ 55067 multiletter control sequences out of 15000+600000
  687701 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,16n,123p,1888b,2126s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,17n,123p,1888b,2126s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmib10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss
-9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/lm/lmtt8.pfb>
-Output written on compstat_2024.pdf (21 pages, 565811 bytes).
+lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmmib10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss
+8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss9.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmsso8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
+lmtt8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm
+10.pfb>
+Output written on compstat_2024.pdf (24 pages, 594879 bytes).
 PDF statistics:
- 380 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 425 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

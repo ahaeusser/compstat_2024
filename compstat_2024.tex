@@ -11,6 +11,7 @@
 \usepackage{booktabs}
 \usepackage{colortbl}
 \usepackage{xcolor}
+\usepackage{hyperref}
 \usetheme{Boadilla}
 %\usetheme{default}
 
@@ -43,6 +44,9 @@
 %\setbeamertemplate{itemize items}[default]
 %\setbeamertemplate{enumerate items}[default]
 
+\setbeamertemplate{itemize/enumerate body begin}{\normalsize}
+\setbeamertemplate{itemize/enumerate subbody begin}{\normalsize}
+
 \definecolor{light-gray}{gray}{0.9}
 
 
@@ -68,45 +72,31 @@
 
 \section{Introduction}
 
-
-\begin{frame}[t]{Background and Research Objectives}
+\begin{frame}[t]{Introduction}
     \begin{minipage}[t]{0.5\textwidth}
         \vspace{0pt}
-        \textbf{Neural networks for forecasting}
+        \textbf{Research objectives}
         \begin{itemize}
-            \item Advantages
-            	\begin{itemize}
-            		\item Non-linearity and flexibility
-            		\item Pattern recognition and sequential learning
-            		\item Scalability
-            	\end{itemize}
-			\item Disadvantages
-				\begin{itemize}
-					\item Complexity and interpretability
-					\item Model selection and overfitting
-					\item Stability and convergence	
-					\item Training time
-				\end{itemize}
+        	\item Develop an algorithm for fast and fully automatic time series modeling and forecasting using Echo State Networks (ESN)
+        	\item Benchmark approach against state-of-the-art forecasting methods
+        	\item Functions available in the R package \href{https://github.com/ahaeusser/echos}{\texttt{echos}}
         \end{itemize}
     \end{minipage}%
     \hfill
     \begin{minipage}[t]{0.5\textwidth}
         \vspace{0pt}
-        \textbf{Research objectives}
+        \textbf{Experimental setup}
         \begin{itemize}
-        	\item Statistical methods are hard to beat?!
-        	\item Develop algorithm for fast and fully automatic time series modeling and forecasting 						  using Echo State Networks (ESN)
-        	\item Empirical analysis
+        	\item Data from the M4 Forecasting Competition
         		\begin{itemize}
-        			\item Data from the M4 Forecasting Competition
-        			\item Evaluate accuracy of (point) forecasts and measure computational run-time
-        			\item Benchmark against state-of-the-art forecasting methods
+        			\item 2,400 monthly and 1,200 quarterly time series
+        			\item Forecast horizon $h = 18$ for monthly and $h = 8$ for quarterly data
         		\end{itemize}
+        	\item Evaluate forecast accuracy (MASE, sMAPE) and measure computational run-time
+        	\item Compare against simple methods, statistical models and neural networks
         \end{itemize}
     \end{minipage}
 \end{frame}
-
-
 
 
 
@@ -160,7 +150,7 @@
 				\end{equation*}
 			\item First autoregressive lag as input, i.e., $u(t) = y(t-1)$
 			\item Input and reservoir weight matrices $\boldsymbol{\omega}^{in}$ and $\boldsymbol{\omega}$
-			\item Collect internal states in design matrix $\mathbf{X}$ (plus intercept term)
+			\item Collect internal states in design matrix $\mathbf{X} = [\mathbf{1},  x_{1t}, x_{2t}, ..., x_{Nt}]$
         \end{itemize}
     \end{minipage}
     \hfill
@@ -212,7 +202,7 @@
         \begin{itemize}
             \item Internal states (colored lines) and the pre-processed output variable (black line)
 			\item Non-linear dimensionality expansion as a feature engineering technique for time series
-			\item \textbf{Problems}
+			\item Problems
 				\begin{itemize}
 					\item Multicollinearity
 					\item Overfitting
@@ -276,14 +266,14 @@
 
 \section{Empirical application}
 
-\begin{frame}[t]{Forecast Accuracy - Monthly dataset}
+\begin{frame}[t]{Monthly dataset - Forecast accuracy and run-time}
     \begin{minipage}[t]{0.3\textwidth}
         \vspace{0pt}
         \textbf{Key takeaways}
-        \begin{itemize}
-            \item ...
-			\item ...
-			\item ...
+        \begin{itemize}                      
+            \item ESN achieved very good results in terms of forecast accuracy and run-time
+            \item Differences between the top methods are marginal
+			\item Statistical methods outperform neural networks
         \end{itemize}
     \end{minipage}%
     \hfill
@@ -294,7 +284,7 @@
 			\centering
 			\begin{tabular}{lrrrrrr}
 				\toprule
-				\multirow{2}{*}{\textbf{Model}} & \multicolumn{2}{c}{\textbf{MASE}} & \multicolumn{2}{c}					{\textbf{sMAPE [\%]}} & \multicolumn{2}{c}{\textbf{Run Time [sec]}} \\
+				\multirow{2}{*}{\textbf{Model}} & \multicolumn{2}{c}{\textbf{MASE}} & \multicolumn{2}{c} {\textbf{sMAPE [\%]}} & \multicolumn{2}{c}{\textbf{Run Time [sec]}} \\
 				\cmidrule(l){2-3} \cmidrule(l){4-5} \cmidrule(l){6-7}
  				& Mean & Median & Mean  & Median & Mean & Total \\
 				\midrule
@@ -322,14 +312,13 @@
 
 
 
-\begin{frame}[t]{Forecast Accuracy - Quarterly dataset}
+\begin{frame}[t]{Quarterly dataset - Forecast accuracy and run-time}
     \begin{minipage}[t]{0.3\textwidth}
         \vspace{0pt}
         \textbf{Key takeaways}
         \begin{itemize}
-            \item ...
-			\item ...
-			\item ...
+			\item ESN achieved good results in terms of forecast accuracy and run-time
+			\item Statistical methods outperform neural networks
         \end{itemize}
     \end{minipage}%
     \hfill
@@ -370,7 +359,7 @@
 \section{Summary}
 
 
-\begin{frame}[t]{Summary and concluding remarks}
+\begin{frame}[t]{Summary and outlook}
     \begin{minipage}[t]{0.5\textwidth}
         \vspace{0pt}
         \textbf{Summary}
@@ -407,62 +396,98 @@
 
 \section{Appendix}
 
-
-\begin{frame}[t]{Echo State Network  - Settings and hyperparameters}
-    \begin{minipage}[t]{0.5\textwidth}
+\begin{frame}[t]{Echo State Network  - Settings and hyperparameters (1/2)}
+    \begin{minipage}[t]{0.3\textwidth}
         \vspace{0pt}
         \textbf{Reservoir generation}
-        	\begin{table}[ht]
-        	\scriptsize
-			\centering
-				\begin{tabular}{ll}
-				\toprule
-				\textbf{Setting}                                    & \textbf{Value}                   \\
-				\midrule
-				Input ($\mathbf{u}$)                                & $y_{t-1}$                        \\
-				Output ($\mathbf{y}$)                               & $y_{t}$                          \\
-				Activation function                                 & $tanh(.)$                        \\
-				Internal states ($N$)                               & $min(\lfloor 0.4T \rfloor, 100)$ \\
-				Initial drop-out ($\delta$)                         & $\lfloor 0.05T \rfloor$          \\
-				\midrule
-				Input weight matrix ($\boldsymbol{\omega}^{in}$)    &                                  \\
-				\hspace{2.5mm} Dimension                            & $N \times 1$                     \\
-				\hspace{2.5mm} Random uniform                       & $[-0.5, 0.5]$                    \\
-				\hspace{2.5mm} Density                              & 100\%                            \\
-				\midrule
-				Reservoir weight matrix ($\boldsymbol{\omega}$)     &                                  \\
-				\hspace{2.5mm} Dimension                            & $N \times N$                     \\
-				\hspace{2.5mm} Random uniform                       & $[-0.5, 0.5]$                    \\
-				\hspace{2.5mm} Density                              & 50\%                             \\
-				\hspace{2.5mm} Spectral radius ($\rho$)             & $1.0$                            \\
-				\bottomrule
-				\end{tabular}
-			\end{table}
+        \begin{itemize}
+        	\item Input weight matrix $\boldsymbol{\omega}^{in} \in \mathbb{R}^{N \times 1}$ and the reservoir weight matrix $\boldsymbol{\omega} \in \mathbb{R}^{N \times N}$ are generated randomly
+        	\item Dynamic rules for determining the number of internal states, initial drop-out, etc.
+        \end{itemize}
     \end{minipage}%
     \hfill
-    \begin{minipage}[t]{0.5\textwidth}
+    \begin{minipage}[t]{0.7\textwidth}
         \vspace{0pt}
-        \textbf{Model estimation and selection}
         	\begin{table}[ht]
         	\scriptsize
 			\centering
 				\begin{tabular}{ll}
 				\toprule
-				\textbf{Setting}                                  & \textbf{Value}	 \\
+				\textbf{Setting}                                    & \textbf{Value/Formula}               \\
 				\midrule
-				Model type                                        & Linear model	 \\
-				Estimator                                         & Ridge regression \\
-				Optimization algorithm                            & Random search 	 \\
-				Search space ($\lambda$)                          &  				 \\
-				\hspace{2.5mm} Number of random values ($K$)      & $2N$             \\
-				\hspace{2.5mm} Interval of random uniform         & $[10^{-4}, 2]$   \\
-				Information criterion                             & BIC              \\
+				Input ($\mathbf{u}$)                                & $y_{t-1}$                            \\
+				Output ($\mathbf{y}$)                               & $y_{t}$                              \\
+				Activation function                                 & $tanh(.)$                            \\
+				Internal states                                     & $N = min(\lfloor 0.4T \rfloor, 100)$ \\
+				Initial drop-out                                    & $\delta = \lfloor 0.05T \rfloor$     \\
+				\midrule
+				Input weight matrix ($\boldsymbol{\omega}^{in}$)    &                                      \\
+				\hspace{2.5mm} Dimension                            & $N \times 1$                         \\
+				\hspace{2.5mm} Random uniform                       & $[-0.5, 0.5]$                        \\
+				\hspace{2.5mm} Density                              & 100\%                                \\
+				\midrule
+				Reservoir weight matrix ($\boldsymbol{\omega}$)     &                                      \\
+				\hspace{2.5mm} Dimension                            & $N \times N$                         \\
+				\hspace{2.5mm} Random uniform                       & $[-0.5, 0.5]$                        \\
+				\hspace{2.5mm} Density                              & 50\%                                 \\
+				\hspace{2.5mm} Spectral radius                      & $\rho = 1.0$                         \\
 				\bottomrule
 				\end{tabular}
 			\end{table}
     \end{minipage}
 \end{frame}
 
+
+
+\begin{frame}[t]{Echo State Network  - Settings and hyperparameters (2/2)}
+    \begin{minipage}[t]{0.3\textwidth}
+        \vspace{0pt}
+        \textbf{Model estimation and selection}
+        \begin{itemize}
+        	\item Ridge Regression reduces overfitting and eliminates difficulties with ill-posed optimization problems
+        	\item Regularization parameter $\lambda$ optimized via random search
+        	\item Effective degrees of freedom to determine model complexity in BIC
+        \end{itemize}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{0.7\textwidth}
+        \vspace{0pt}
+        	\begin{table}[ht]
+        	\scriptsize
+			\centering
+				\begin{tabular}{ll}
+				\toprule
+				\textbf{Setting}                          & \textbf{Value/Formula}	 \\
+				\midrule
+				Model type                                & $\mathbf{y} = \mathbf{X} \boldsymbol{\omega}^{out} + \boldsymbol{\epsilon}$	 \\
+				Output weight matrix                      & $\boldsymbol{\hat{\omega}}^{out} = (\mathbf{X}^\top \mathbf{X} + \mathbf{R}_{\lambda})^{-1}\mathbf{X}^\top\mathbf{y}$ \\
+				Optimization algorithm                    & Random search 	 \\
+				Search space ($\lambda$)                  &  				 \\
+				\hspace{2.5mm} Number of random values    & $K = 2N$             \\
+				\hspace{2.5mm} Interval of random uniform & $[10^{-4}, 2]$   \\
+				Information criterion                     & $BIC_{\lambda} = -2 L + \ln(T) df_{\lambda}$ \\
+				Effective degrees of freedom	          & $df_{\lambda} = tr[{\mathbf{X}{{({\mathbf{X}^{\top}\mathbf{X} + \mathbf{R}_{\lambda}})}^{ - 1}}\mathbf{X}^{\top}}]$ \\
+				\bottomrule
+				\end{tabular}
+			\end{table}
+    \end{minipage}
+\end{frame}
+
+
+\begin{frame}[t]{Monthly dataset - Number of obs. and strength of trend and seasonality}
+	\begin{figure}[H]
+    \center
+		\includegraphics[scale=0.7]{figures/figure_01_data_monthly.pdf}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame}[t]{Quarterly dataset - Number of obs. and strength of trend and seasonality}
+	\begin{figure}[H]
+    \center
+		\includegraphics[scale=0.7]{figures/figure_02_data_quarterly.pdf}
+	\end{figure}
+\end{frame}
 
 
 \end{document}
