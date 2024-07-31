@@ -91,6 +91,38 @@
     \field{year}{2009}
   \endentry
 
+  \entry{Hyndman2021}{book}{}
+    \name{author}{2}{}{%
+      {{hash=HRJ}{%
+         family={Hyndman},
+         familyi={H\bibinitperiod},
+         given={Rob\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=AG}{%
+         family={Athanasopoulos},
+         familyi={A\bibinitperiod},
+         given={George},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {OTexts: Melbourne, Australia}%
+    }
+    \strng{namehash}{HRJAG1}
+    \strng{fullhash}{HRJAG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{edition}{3rd edition}
+    \field{title}{Forecasting: principles and practice}
+    \verb{url}
+    \verb OTexts.com/fpp3
+    \endverb
+    \field{year}{2021}
+  \endentry
+
   \entry{echos}{manual}{}
     \name{author}{1}{}{%
       {{hash=HA}{%
@@ -106,7 +138,7 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{H}
     \field{sortinithash}{H}
-    \field{note}{R package version 0.0.4}
+    \field{note}{R package version 0.1.0}
     \field{title}{echos: Echo State Networks for Time Series Modeling and
   Forecasting}
     \verb{url}

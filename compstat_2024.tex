@@ -148,7 +148,7 @@
 				\begin{equation*}
 					\mathbf{x}_{t} = \tanh \left( {\boldsymbol{\omega}^{in}} u_{t} + \boldsymbol{\omega} \mathbf{x}_{t-1} \right)
 				\end{equation*}
-			\item First autoregressive lag as input, i.e., $u(t) = y(t-1)$
+			\item First autoregressive lag as input, i.e., $u_{t} = y_{t-1}$
 			\item Input and reservoir weight matrices $\boldsymbol{\omega}^{in}$ and $\boldsymbol{\omega}$
 			\item Collect internal states in design matrix $\mathbf{X} = [\mathbf{1},  x_{1t}, x_{2t}, ..., x_{Nt}]$
         \end{itemize}
@@ -206,7 +206,7 @@
 				\begin{itemize}
 					\item Multicollinearity
 					\item Overfitting
-					\item ...
+					\item etc.
 				\end{itemize}
         \end{itemize}
     \end{minipage}%
