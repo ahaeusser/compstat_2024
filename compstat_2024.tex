@@ -415,10 +415,10 @@
 				\toprule
 				\textbf{Setting}                                    & \textbf{Value/Formula}               \\
 				\midrule
-				Input ($\mathbf{u}$)                                & $y_{t-1}$                            \\
+				Input ($\mathbf{u}$)                                & $u_t = y_{t-1}$                            \\
 				Output ($\mathbf{y}$)                               & $y_{t}$                              \\
 				Activation function                                 & $tanh(.)$                            \\
-				Internal states                                     & $N = min(\lfloor 0.4T \rfloor, 100)$ \\
+				Number of internal states                           & $N = min(\lfloor 0.4T \rfloor, 100)$ \\
 				Initial drop-out                                    & $\delta = \lfloor 0.05T \rfloor$     \\
 				\midrule
 				Input weight matrix ($\boldsymbol{\omega}^{in}$)    &                                      \\
