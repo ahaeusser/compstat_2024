@@ -78,25 +78,24 @@
         \textbf{Research objectives}
         \begin{itemize}
         	\item Develop an algorithm for fast and fully automatic time series modeling and forecasting using Echo State Networks (ESN)
-        	\item Benchmark approach against state-of-the-art forecasting methods
-        	\item Functions and methods available in the R package \href{https://github.com/ahaeusser/echos}{\texttt{echos}} %\newline
-        	\begin{center}
-        	\includegraphics[scale=0.5]{figures/echos.png} 
-        	\end{center}
+        	\item Experimental setup
+        		\begin{itemize}
+        		\item Benchmark approach against state-of-the-art forecasting methods
+        		\item Data from the M4 Forecasting Competition
+        		\item Evaluate forecast accuracy (MASE, sMAPE) and measure computational run-time
+        		\end{itemize}
         \end{itemize}
     \end{minipage}%
     \hfill
     \begin{minipage}[t]{0.5\textwidth}
         \vspace{0pt}
-        \textbf{Experimental setup}
+        \textbf{Paper and R package}
         \begin{itemize}
-        	\item Data from the M4 Forecasting Competition
-        		\begin{itemize}
-        			\item 2,400 monthly and 1,200 quarterly time series
-        			\item Forecast horizon $h = 18$ for monthly and $h = 8$ for quarterly data
-        		\end{itemize}
-        	\item Evaluate forecast accuracy (MASE, sMAPE) and measure computational run-time
-        	\item Compare against simple methods, statistical models and neural networks
+        	\item Paper currently \textit{Under Review} at \textit{International Journal of Forecasting (IJF)}
+        	\item Functions and methods available in the R package \href{https://github.com/ahaeusser/echos}{\texttt{echos}} %\newline
+        	\begin{center}
+        	\includegraphics[scale=0.5]{figures/echos.png} 
+        	\end{center}
         \end{itemize}
     \end{minipage}
 \end{frame}
@@ -105,34 +104,28 @@
 
 \section{Echo State Networks}
 
-
-
-\begin{frame}[t]{Echo State Network - Architecture}
-    \begin{minipage}[t]{0.3\textwidth}
-        \vspace{0pt}
-        \begin{itemize}
-			\item Input $u_{t} = y_{t-1}$ is non-linearly expanded into a high-dimensional feature space (i.e., internal states)
-			\item Output $y_{t}$ is combined via trainable weights from these internal states
-			\item Dashed lines indicate fixed weights ($\boldsymbol{\omega}^{in}$, $\boldsymbol{\omega}$) and solid lines indicate trainable weights $\boldsymbol{\omega}^{out}$
-        \end{itemize}
-    \end{minipage}%
-    \hfill
-    \begin{minipage}[t]{0.7\textwidth}
-        \vspace{0pt}
- 		\begin{figure}[H]
-		\center
-			\includegraphics[scale=0.6]{figures/figure_04_architecture.pdf}
-		\end{figure}
-    \end{minipage}
-\end{frame}
-
+%\begin{frame}[t]{Echo State Network - Architecture}
+%    \begin{minipage}[t]{0.3\textwidth}
+%        \vspace{0pt}
+%        \begin{itemize}
+%			\item Input $u_{t} = y_{t-1}$ is non-linearly expanded into a high-dimensional feature space (i.e., internal states)
+%			\item Output $y_{t}$ is combined via trainable weights from these internal states
+%			\item Dashed lines indicate fixed weights ($\boldsymbol{\omega}^{in}$, $\boldsymbol{\omega}$) and solid lines indicate trainable weights $\boldsymbol{\omega}^{out}$
+%        \end{itemize}
+%    \end{minipage}%
+%    \hfill
+%    \begin{minipage}[t]{0.7\textwidth}
+%        \vspace{0pt}
+% 		\begin{figure}[H]
+%		\center
+%			\includegraphics[scale=0.6]{figures/figure_04_architecture.pdf}
+%		\end{figure}
+%    \end{minipage}
+%\end{frame}
 
 
 
-
-
-
-\begin{frame}[t]{Echo State Network - Basic model\footnote{More details in the appendix}}
+\begin{frame}[t]{Echo State Network - Approach and basic model\blfootnote{More details in the appendix}}
     \begin{minipage}[t]{0.33\textwidth}
         \vspace{0pt}
         \textbf{1. Data pre-processing}
@@ -181,10 +174,11 @@
     \begin{minipage}[t]{0.3\textwidth}
         \vspace{0pt}
         \begin{itemize}
-            \item Original M4 dataset consists of 100,000 time series
+        		\item M4 dataset consists of 100,000 time series
 			\item Different frequencies and applications fields
 			\item Randomly selected 2,400 monthly and 1,200 quarterly series
-			\item Diverse dataset with different characteristics (trend, season, non-stationarity, etc.)
+			\item Diverse dataset (trend, season, non- stationarity, etc.)
+        	    \item Forecast horizon: $h = 18$ (monthly), $h = 8$ (quarterly)
         \end{itemize}
     \end{minipage}%
     \hfill
@@ -203,7 +197,7 @@
     \begin{minipage}[t]{0.3\textwidth}
         \vspace{0pt}
         \begin{itemize}
-            \item Internal states (colored lines) and the pre-processed output variable (black line)
+            \item Pre-processed output variable (black line) and internal states (colored lines)
 			\item Non-linear dimensionality expansion as a feature engineering technique for time series
 			\item Problems
 				\begin{itemize}
@@ -229,7 +223,7 @@
     \begin{minipage}[t]{0.3\textwidth}
         \vspace{0pt}
         \begin{itemize}
-            \item Top 5 internal states (colored lines) and the pre-processed output variable (black line)
+            \item Pre-processed output variable (black line) and top 5 internal states (colored lines)
 			\item Selection based on the size of the absolute value of the coefficients (high correlation $\rightarrow$ predictive power)
 			\item Lead-lag relationship captures auto-correlation, seasonality, etc.
         \end{itemize}
@@ -276,7 +270,7 @@
         \begin{itemize}                      
             \item ESN achieved very good results in terms of forecast accuracy and run-time
             \item Differences between the top methods are marginal
-			\item Statistical methods outperform neural networks
+            \item Statistical methods outperform neural networks
         \end{itemize}
     \end{minipage}%
     \hfill
@@ -320,7 +314,8 @@
         \vspace{0pt}
         \textbf{Key takeaways}
         \begin{itemize}
-			\item ESN achieved good results in terms of forecast accuracy and run-time
+			\item ESN achieved good to medium results in terms of forecast accuracy
+			\item ESN has good trade-off in terms of accuracy and run-time
 			\item Statistical methods outperform neural networks
         \end{itemize}
     \end{minipage}%
